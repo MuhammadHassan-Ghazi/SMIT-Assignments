@@ -1,0 +1,884 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.contactheader{  
+    background-color: #eeeeee;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    /* font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+}
+
+.contactheaderChild{
+    width: 85%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactheaderGChild{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contactheaderGChild .email img{
+    width: 15px;
+    height: 15px;
+}
+
+.contactheaderGChild .phone img{
+    width: 15px;
+    height: 15px;
+}
+
+.contactheaderGChild .whatsapp img{
+    background-color: darkgray;
+    width: 15px;
+    height: 15px;
+}
+
+.mainheader{
+    width: 85%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0 auto;
+    position:sticky;
+    top:0;
+    background-color: white;
+    x-index:99;
+}
+
+
+.mainheader > .mainheaderlogo > img{
+    width: 190px;
+    height: 50px;
+}
+
+.mainheader > .mainheadernav{
+    display: flex;
+    gap: 5px;
+}
+
+.mainheader > .mainheadernav > ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.mainheader > .mainheadernav > ul >li:hover{
+    text-decoration: underline  #8DC63F;
+    cursor: pointer;
+}
+
+.mainheader > .mainheadernav > .donateBtn{
+    height: 45px;
+    width: 130px;
+    background-color: #0D6DB7;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.mainheader > .mainheadernav > .donateBtn:hover{
+    /* height: 40px;
+    width: 135px; */
+    scale: 1.1;
+}
+
+.mainheader > .mainheadernav > .sponsorBtn{
+    height: 45px;
+    width: 130px;
+    background-color: #8DC63F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.mainheader > .mainheadernav > .sponsorBtn:hover{
+    /* height: 40px;
+    width: 135px; */
+    scale: 1.1;
+}
+
+.bodydiv{
+    width: 85%;
+    height: 500px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+
+    background-image: url("./Images/carousal_background.d77d94e41c5a71ae581f.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.bodydiv > .textdiv {
+    flex:1;
+    height: 65%;
+}
+
+.bodydiv > .textdiv > .boldtext{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.bodydiv > .textdiv > button{
+    border: 1px solid black;
+    width: 167.55px;
+    height: 44px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.greencolor{
+    color:  #8DC63F;
+}
+
+.bluecolor{
+    color:  #0D6DB7;
+}
+
+.bodydiv > .imagediv {
+    flex:1;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.bodydiv > .imagediv > img{
+    width: 476px;
+    height: 400px;
+}
+
+.bodydiv2{
+    width: 85%;
+    height: 120px;
+    /* border: 1px solid black; */
+    background-color: rgb(240,252,219);
+    border-radius: 10px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    /* gap: 30px; */
+}
+
+.bodydiv2 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+}
+
+.bodydiv2 input{
+    width: 160px;
+    height: 48px;
+    border: 1px solid black;
+}
+
+
+/* .bodydiv2 h5{
+    width: 140px;
+    height: 100%;
+    background-color: black;
+    color: white;
+} */
+
+.bodydiv2 .generalh5{
+    width: 90px;
+    height: 100%;
+    background-color: #424242;
+    color: white;
+    /* text-align: center; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.bodydiv2 .Rsh5{
+    width: 50px;
+    height: 100%;
+    background-color: #424242;
+    color: white;
+    /* text-align: center; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.bodydiv2 .BloodBankBtn{
+    width: 280px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bodydiv2 .BloodBankBtn:hover{
+    scale: 1.1;
+    background-color: #424242;
+    color: white;
+}
+
+
+.bodydiv2 .FamilyKifalatBtn{
+    width: 100px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bodydiv2 .FamilyKifalatBtn:hover{
+    scale: 1.1;
+    background-color: #424242;
+    color: white;
+}
+
+.bodydiv2 .MedicalBtn{
+    width: 80px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bodydiv2 .MedicalBtn:hover{
+    scale: 1.1;
+    background-color: #424242;
+    color: white;
+}
+
+.bodydiv2 .FoodBtn{
+    width: 80px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bodydiv2 .FoodBtn:hover{
+    scale: 1.1;
+    background-color: #424242;
+    color: white;
+}
+
+.bodydiv2 .quickDonateBtn{
+    width: 140px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color:  #8DC63F;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bodydiv2 .quickDonateBtn:hover{
+    scale: 1.1;
+}
+
+.bodydiv3{
+    width: 85%;
+    height: 680px;
+    margin: 20px auto;
+    /* display: flex;
+    justify-content: space-evenly;
+    align-items: center; */
+    /* gap: 30px; */
+    position: relative;
+}
+
+.bodydiv3 .image{
+    width: 100%;
+    height: 100%;   
+}
+
+
+.bodydiv3 .image img{
+    width: 100%;
+    height:  100%;
+    object-fit: cover; 
+    overflow: hidden;  
+}
+
+.bodydiv3 .btn{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+.bodydiv3 .btn button{
+    width: 160px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    background-color:  #8DC63F;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bodydiv3 .btn button:hover{
+    scale: 1.1;
+}
+
+.bodydiv4{
+    width: 85%;
+    height: 230px;
+    /* border: 1px solid black; */
+    /* background-color: rgb(240,252,219); */
+    border-radius: 10px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.bodydiv4 > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bodydiv4 > div >div{
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: rgb(240,252,219);
+}
+
+.bodydiv4 > div >div >h4{
+    margin-top: 20px;
+}
+
+.bodydiv4 > div >div >.educationh4{
+    margin-top: 30px;
+}
+
+.bodydiv4 > div >div >.foodh4{
+    margin-top: 30px;
+}
+
+.bodydiv5{
+    width: 85%;
+    height: 330px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.bodydiv5 > div{
+
+    flex: 1;
+    border-radius: 10px;
+}
+
+.bodydiv5 > div > img{
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.bodydiv5 > div > img:hover{
+    scale:1.1;
+    opacity: 0.9;
+}
+
+.bodydiv5 .DailyFood{
+    position: relative;
+}
+
+.bodydiv5 .DailyFood div{
+    position: absolute;
+    color: white;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    top:30px;
+    left: 5%;
+}
+
+.bodydiv5 .DailyFood div button{
+    color: white;
+    background-color:  #8DC63F;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    top:40px;
+    margin-top: 180px;
+}
+
+.bodydiv5 .SponsorVocationStudents{
+    position: relative;
+}
+
+.bodydiv5 .SponsorVocationStudents div{
+    position: absolute;
+    color: white;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    top:30px;
+    left: 5%;
+}
+
+.bodydiv5 .SponsorVocationStudents div button{
+    color: white;
+    background-color:  #8DC63F;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    top:40px;
+    margin-top: 180px;
+}
+
+
+.bodydiv5 .SponsorITStudents{
+    position: relative;
+}
+
+.bodydiv5 .SponsorITStudents div{
+    position: absolute;
+    color: white;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    top:30px;
+    left: 5%;
+}
+
+.bodydiv5 .SponsorITStudents div button{
+    color: white;
+    background-color:  #8DC63F;
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    top:40px;
+    margin-top: 180px;
+}
+
+.bodydiv6{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 450px;
+    /* border: 1px solid black; */
+    margin: 0px auto;
+    border-top-left-radius: 40px;
+}
+
+.bodydiv6 .image{
+    /* position: relative; */
+    border-top-left-radius: 40px;
+    background-image: url("./Images/2178912-image-1584559620.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 47%;
+}
+
+.bodydiv6 .image{
+    border-top-left-radius: 40px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bodydiv6 .image div{
+    width: 50%;
+    height: 50%;
+    border: 1px solid lightgray;
+}
+
+.bodydiv6 .image .divPara{
+    color: white;
+    background-color:  #8DC63F;
+    border-top-left-radius: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodydiv6 .content{
+    width: 47%;
+    padding-left: 10px;
+}
+
+.bodydiv6 .content{
+    width: 50%;
+}
+
+.bodydiv6 .content > div{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.bodydiv6 .content > div > .divi{
+    width: 15%;
+    height: 80px;
+    border-radius: 8px;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodydiv6 .content > div > div{
+    width: 85%;
+}
+
+.bodydiv6 .content > div > div > h3{
+    color:#0D6DB7;
+}
+.bodydiv6 .content > div > div > p{
+    margin-top: 10px;
+}
+
+.bodydiv7{
+    width: 85%;
+    height: 370px;
+    margin: 20px auto;
+    background-image: url("./Images/waves.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #0d6db7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.bodydiv7 > div{
+    text-align: center;
+}
+
+.bodydiv7 > div > div{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bodydiv8{
+    text-align: center;
+    width: 85%;
+    height: 500px;
+    margin :30px auto;
+}
+
+.bodydiv8 > p{
+    color: #8DC63F;
+    margin-bottom: 10px;
+}
+
+.bodydiv8 > div{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bodydiv8 > div >div{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.bodydiv8 > div >div >img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.bodydiv8 > div >h2{
+    color: #0d6db7;
+}
+
+.bodydiv8 > div >p{
+    line-height: 30px;
+}
+
+.bodydiv9{
+    width: 85%;
+    height: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.bodydiv9 div{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+
+.bodydiv9 div iframe{
+    width: 250px;
+    height: 250px;
+}
+
+.bodydiv10{
+    width: 85%;
+    height: 420px;
+    /* text-align: center; */
+    margin: 20px auto;
+}
+
+.bodydiv10 > h1{
+    text-align: center;
+}
+
+.bodydiv10 > div{
+    width: 100%;
+    height: 370px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.bodydiv10 > div >div{
+    width: 23%;
+    height: 370px;
+    border-radius: 5px;
+    background-color: #eeeeee;
+}
+
+.bodydiv10 > div >div >img{
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.bodydiv10 > div >div >.btnDate{
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #8DC63F;
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.bodydiv10 > div >div >h3{
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+
+.bodydiv10 > div >div >.btnArrow{
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.bodydiv10 > div >div >.btnArrow:hover{
+    scale: 1.1;
+}
+
+.bodydiv11{
+    width: 85%;
+    height: 300px;
+    margin:30px auto;
+    background-color: #0d6db7;
+    background-image: url("./Images/guide_back.3a5127e910c15a49f875.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodydiv11 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodydiv11 form h1{
+   color: white;
+   font-size: 42px;
+   margin-bottom: 20px;
+}
+
+.bodydiv11 form input{
+    width: 438px;
+    height: 54px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 15px;
+ }
+
+ .bodydiv11 form input::placeholder{
+    color: white;
+ }
+
+ .bodydiv11 form input:focus{
+    outline: none;
+ }
+
+.bodydiv11 form button{
+    width: 438px;
+    height: 54px;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+ }
+
+ .footer{
+    background-color: #424242;
+    /* background-image: url("./Images/waves.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.footer > img{
+    opacity: 0.4;
+    width: 100%;
+}
+
+.footer >div{
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+    top: 5%;
+    right: 20%;
+    width: 85%;
+    margin: 0px auto;
+}
+
+.footer > div .footer1{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    
+}
+
+ .footer > div  .footer1 ul{
+    list-style: none;
+    color: white;
+ }
+
+ .footer > div .footer1 ul{
+    margin-top: 30px;
+ }
+
+ .footer > div  .footer1 ul .boldtext{
+    font-weight: bold;
+    margin-bottom: 20px;
+ }
+
+ .footer > div  .footer1 .logoUL{
+    text-align: center;
+ }
+
+ .footer > div .footer1 .aboutUL li,.footer > div .footer1 .exploreUL li{
+    margin-top: 10px;
+ }
+
+ .footer > div .footer1 .aboutUL li:hover,.footer > div .footer1 .exploreUL li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+ }
+
+ .footer2,.footer3,.footer4{
+    text-align: center;
+    color: white;
+ }
+
+ .footer hr{
+    opacity: 0.4;
+ }

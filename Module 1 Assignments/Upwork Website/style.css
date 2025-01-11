@@ -1,0 +1,379 @@
+
+
+.btnsignup{
+    /* width: 100.36px; */
+    width: 20% !important;
+    background-color: #108a00 !important;
+}
+
+
+.txtSearch:focus{
+   border-color: transparent !important;
+   box-shadow: none !important;
+   background-color: rgb(233,233,233,0.5) !important;
+}
+
+ul li ul{
+    font-size: 12px !important;
+}
+
+ul li ul li a p{
+    color: rgba(0,0,0,0.5) !important;
+}
+
+.bodypart1 .childs{
+    flex: 1;  
+}
+
+.bodypart1 .image{
+    text-align: center;
+}
+
+.bodypart1 .btnGetStarted{
+    width: 20% !important;
+    background-color: #108a00 !important;
+}
+
+.bodypart1 .heading{
+    font-size: 59px;
+}
+
+.bodypart1 p{
+    font-size: 20px;
+}
+
+.bodypart1 .spanRightNow{
+    display: block;
+}
+
+.bodypart1 img{
+    text-align: center;
+}
+
+.bodypart3{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bodypart3 > .image{
+    flex: 1;
+    /* height: 400px; */
+    border-radius: 10px;
+}
+
+.bodypart3 > .image > img{
+    border-radius: 10px;
+}
+
+.bodypart3 > .content{
+    flex: 2;
+    /* height: 400px; */
+}
+
+.bodypart3 .content .btnSignupforfree{
+    background-color: #108a00 !important;
+    color: #fff !important;
+    height: 40px !important;
+    width: 160px;
+}
+
+.bodypart3 .content .btnLearnhowtohire{
+    color: #108a00 !important;
+    outline: 2px solid #108a00 !important;
+    height: 35px !important;
+    width: 160px;
+}
+
+.bodypart3 .BoldContent{
+    font-weight: bold;
+}
+
+.bodypart3 .otherContent{
+    display: block;
+}
+
+.bodypart4{
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.bodypart4 .buttons{
+    width: 440px;
+    height: 55px;
+    background-color:#000000;
+    text-align: center;
+}
+
+.bodypart5 > p{
+    font-size: 20px;
+}
+
+.bodypart5 > .cardsDiv > div{
+    width: 270px;
+    height: 115px;
+    background-color: #f9f9f9;
+    gap:15px;
+    cursor: pointer;
+}
+
+.bodypart5 > .cardsDiv > div:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+.bodypart5 a{
+    color: #108a00;
+}
+
+.bodypart6 .lightgreen{
+    color: #91e5b3;
+}
+
+.bodypart6 .content{
+    background-color: #13544e;
+    color: #fff;
+    flex: 1;
+}
+
+.bodypart6 .content .bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bodypart6 .image{
+    flex: 1;
+}
+
+.bodypart7{
+    color: #fff;
+    width: 1120px;
+    height: 95vh;
+    background-image: url("./Images/find-talent-2x.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.bodypart7 > p{
+    width: 350px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.bodypart7 .cards div{
+    background-color: #108a00;
+    width: 320px;
+    height: 160px;
+    
+}
+
+.bodypart7 .cards div:hover{
+    color: #108a00;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.bodypart8{
+    gap:30px;
+}
+
+.bodypart8 > img{
+    top: 25px;
+}
+
+.bodypart8 .content1{
+    flex:2;
+    background-color: #f9f9f9;
+}
+
+.bodypart8 .content1 h1{
+    width: 65%;
+    font-size: 60px;
+}
+
+.bodypart8 .content1 ul{
+    list-style: none;
+    width: 65%;
+}
+
+.bodypart8 .content1 ul li p{
+    margin-left: 30px;
+}
+
+.bodypart8 .content2{
+    flex:1;
+    background-color: #14a800;
+}
+
+.bodypart8 .content2 h2{
+    margin-top: 300px;
+    margin-left: 48px;
+}
+
+.bodypart8 .content2 h2 span{
+    display: block;
+}
+
+.bodypart8 .content2 ul{
+    list-style: none;
+    width: 95%;
+}
+
+.bodypart8 .content2 ul li p{
+    margin-left: 45px;
+}
+
+.bodypart9 .image{
+    flex: 1;
+}
+
+.bodypart9 .content{
+    flex: 2;
+    background-color: #1f57c3;
+    color: #fff;
+}
+
+.bodypart9 .content h1{
+    font-size: 60px;
+}
+
+.bodypart9 .content p{
+    font-size: 20px;
+}
+
+.bodypart9 .content hr{
+   color: #fff;
+   height: 2px;
+}
+
+.bodypart9 .content ul{
+    list-style: none;
+    gap:15px;
+}
+
+.bodypart10 h1{
+    font-size: 64px;
+}
+
+.bodypart10 h1 span{
+    display: block;
+}
+
+.bodypart10 .headingdiv{
+    flex: 1;
+    background-color: #91e5b3;
+    color: #13544e;
+}
+
+.bodypart10 .slidesdiv{
+    flex: 1;
+}
+
+.bodypart11{
+    background-color: #f9f9f9;
+    height: 30vh;
+}
+
+.bodypart12 ul{
+    list-style: none;
+}
+
+.bodypart12 .list1{
+    color: #e4dedb;
+    flex: 1;
+}
+
+.bodypart12 .list1 .topskills{
+    color: #108a00;
+}
+
+.bodypart12 .list1 li:hover{
+    color: #108a00;
+    cursor: pointer;
+}
+
+.bodypart12 .list1 .pc h1 span{
+    font-size: 12px;
+}
+
+.bodypart12 .list2,.bodypart12 .list3{
+    font-size: 24px;
+    flex: 1;
+}
+
+.bodypart12 .list2 li,.bodypart12 .list3  li{
+    margin-top: 5px;
+}
+
+.bodypart12 .list2 li:hover,.bodypart12 .list3  li:hover{
+    color: #108a00;
+    cursor: pointer;
+
+}
+
+.footer{
+    background-color: #181818;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.footer .lists{
+    gap: 90px;
+ }
+
+.footer .lists ul{
+   list-style: none;
+   font-size: 14px;
+}
+
+.footer .lists ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer .lists ul .textdecoration:hover{
+    text-decoration: none;
+}
+
+.footer .contentofimages{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #fff;
+}
+
+.copyrightdiv {
+    gap: 30px;
+}
+
+.copyrightdiv  ul{
+    list-style: none;
+    gap: 20px;
+}
+
+.copyrightdiv  ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width:1200px){
+    form span{
+        visibility: hidden;
+        width: 10px;
+    }
+
+    .btnsignup{
+        width: 80px !important;      
+    }
+}
+
+
+@media only screen and (max-width:991px){
+    form span{
+        visibility:visible;
+        width: 300px;
+    }
+}

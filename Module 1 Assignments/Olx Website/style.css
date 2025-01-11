@@ -1,0 +1,115 @@
+.header{
+   width: 95%;
+   gap: 15px;
+   align-items: center;
+ }
+
+.header > div >div {
+    width: 40px;
+    height: 40px;
+    background-color: #dae1e2;
+}
+
+.header > div:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.header2 {
+    gap: 10px;
+    width: 95%;
+}
+
+.header2 .dropdown{
+    width: 300px;
+}
+
+.header2 .dropdown button:focus{
+   border-color: #dae1e2 !important;
+   box-shadow: none !important;
+}
+
+.header2 .dropdown button,
+.header2 .dropdown ul{
+    width: 300px;
+}
+
+.header2 .input-group{
+    width: 60%;
+}
+
+.header2 .input-group input:focus{
+   border-color: #dae1e2 !important;
+   box-shadow: none !important;
+}
+
+.header2 > p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.header2 > .sellButton:hover{
+    cursor: pointer;
+}
+
+.header3{
+    width: 95%;
+}
+
+.bodyPart1,.bodyPart2,.bodyPart3,.bodyPart4{
+    width: 95%;
+}
+
+
+
+
+.bodyPart3 .card{
+    height: 312px;
+}
+
+.bodyPart4 .card{
+    height: 350px;
+}
+
+.bodyPart6{
+    background-color: #f7f8f9;
+    /* background-color:#f8faf9 */
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer .list{
+    background-color: #ebeeef;
+}
+
+
+.footer ul .heading{
+    color: #212529;
+    font-weight: bold;
+}
+
+.footer ul .heading:hover{
+   cursor:none;
+   text-decoration: none;
+}
+
+.footer ul li{
+    color: gray;
+    font-size: 14px;
+}
+
+.footer ul li:hover{
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+.footer .copyright{
+    background-color: #002f34;
+    height: 50px;
+    font-size: 12px;
+}
+
+
+
