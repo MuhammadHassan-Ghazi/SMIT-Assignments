@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="inputcontainer">
+            <input type="text" disabled id="input" placeholder="0">
+        </div>
+        <div class="tablecontainer">
+            <table>
+                <tr>
+                    <td class="blueColour" onclick="clearAll()">AC</td>
+                    <td class="blueColour" onclick="clearValue()">DEL</td>
+                    <td class="blueColour" onclick="inputValue('%')">%</td>
+                    <td class="blueColour" onclick="inputValue('/')">/</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(7)">7</td>
+                    <td onclick="inputValue(8)">8</td>
+                    <td onclick="inputValue(9)">9</td>
+                    <td class="blueColour" onclick="inputValue('*')">*</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(4)">4</td>
+                    <td onclick="inputValue(5)">5</td>
+                    <td onclick="inputValue(6)">6</td>
+                    <td class="blueColour" onclick="inputValue('-')">-</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(1)">1</td>
+                    <td onclick="inputValue(2)">2</td>
+                    <td onclick="inputValue(3)">3</td>
+                    <td class="blueColour" onclick="inputValue('+')">+</td>
+                </tr>
+                <tr>
+                    <td onclick="inputValue(0)">0</td>
+                    <td onclick="inputValue('00')">00</td>
+                    <td onclick="inputValue('.')">.</td>
+                    <td class="blueColour" onclick="result()">=</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
