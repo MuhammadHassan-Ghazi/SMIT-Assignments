@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="parentContainer">
+        
+        <div class="childContainer1">
+            <h1 class="projectName">Todo App</h1>
+            <div>
+                <form action="">
+                    <div>
+                        <label>Title</label>
+                        <input type="text" class="text" id="txttitle">
+                    </div>
+                    
+
+                    <div>
+                        <label>Description</label>
+                        <textarea class="textarea" id="txtDescription" cols="40" rows="8"></textarea>
+                    </div>
+                    <button id="addBtn" type="button" onclick="addTodo()">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="childContainer2">
+            <div id="todoList">
+                
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
