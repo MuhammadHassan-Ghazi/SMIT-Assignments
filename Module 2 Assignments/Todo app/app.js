@@ -23,6 +23,7 @@ function addTodo(){
     }
 
     var todos = getTodosFromStorage();
+
     if (editIndex !== null) {
         // Editing existing todo
         todos[editIndex] = { title, description };
@@ -46,10 +47,9 @@ function addTodo(){
         }
         
         // Create and show on UI
-        createTodoElement(title, description);
+        createTodoElement(title, description,todos.length);
 
-        // Save to localStorage
-        
+        // Save to localStorage    
         todos.push({ title, description });
         saveTodosToStorage(todos);
     }
